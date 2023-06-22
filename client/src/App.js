@@ -4,6 +4,8 @@ import Home from "./components/Home/Home";
 import CreateDog from "./components/CreateDog/CreateDog";
 import LandingPage from "./components/LandingPage/LandingPage.jsx";
 import DetailDog from "./components/DetailDog/DetailDog";
+import axios from "axios";
+axios.defaults.baseURL = "http://localhost:3001";
 
 function App() {
   return (
