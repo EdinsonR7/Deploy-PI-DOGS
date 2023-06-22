@@ -1,0 +1,38 @@
+.container{
+    margin-bottom: 1.9rem;
+    position: absolute;
+    top: 27px;
+    left: 82%;
+    color: #0e1110;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    .texto{
+        color: #0b0c0c;
+        margin-bottom: 1rem;
+    }
+
+
+    .boton{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #0fe5ed;
+        border-radius: .2rem; 
+    }
+
+        .boton button{
+            display: flex;
+            padding: 0.2rem;
+            justify-content: flex-start;
+            align-items: flex-start;
+            border: none;
+            background: transparent;
+            color: #212121;
+            width: 100%;
+        }
+
+        .boton button:hover{
+            background: #212121a9;
+            cursor: pointer;
+        }
