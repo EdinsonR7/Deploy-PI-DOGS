@@ -1,5 +1,5 @@
 import React from "react";
-// import axios from "axios";
+import axios from "axios";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
@@ -7,9 +7,8 @@ import reportWebVitals from "./reportWebVitals";
 import store from "./redux/store";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
-import dotenv from "dotenv";
 
-dotenv.config();
+axios.defaults.baseURL = "http://localhost:3001";
 
 ReactDOM.render(
   <React.StrictMode>
