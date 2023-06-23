@@ -17,7 +17,7 @@ server.use(cookieParser());
 server.use(morgan("dev"));
 
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://deploy-pi-dogs-eta.vercel.app/",
   credentials: true,
   //access-control-allow-credentials:true,
   optionSuccessStatus: 200,
@@ -27,7 +27,7 @@ server.use(cors(corsOptions));
 server.use((req, res, next) => {
   res.header(
     "Access-Control-Allow-Origin",
-    "https://deploy-pi-dogs-eta.vercel.app"
+    "https://deploy-pi-dogs-eta.vercel.app/"
   ); // update to match the domain you will make the request from
   res.header("Access-Control-Allow-Credentials", "true");
   res.header(
