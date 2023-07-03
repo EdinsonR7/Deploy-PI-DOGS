@@ -1,38 +1,29 @@
-.container{
-    margin-bottom: 1.9rem;
-    position: absolute;
-    top: 27px;
-    left: 72%;
-    color: #0e1110;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.container {
+    display       : flex;
+    flex-direction: column;
+    color         : #0e1110;
+    font-family   : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 
-.texto{
+.texto {
     color: #0d0d0b;
-    margin-bottom: 1rem;
 }
 
 
-.select{
-    background-color: #10f1e2   ;
-    border-radius: .3rem;
-    position: absolute;
-    top: 70%;
-    left:-10%;
-    
-} 
+.select {
+    background-color: #14eee36e;
+    border-radius   : .3rem;
+}
 
-.select:hover{
+.select:hover {
     cursor: pointer;
 }
 
-     .select option{
-         background-color: #ebe5e5;
-         border-radius: .2rem;
-         color: rgb(8, 12, 13);
+.select option {
+    background-color: #ebe5e5;
+    border-radius   : .2rem;
+    color           : rgb(8, 12, 13);
 
-     }
-
-    
+}

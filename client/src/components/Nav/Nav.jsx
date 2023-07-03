@@ -1,5 +1,4 @@
 import React from 'react';
-import Search from '../Search/Search';
 import { Link } from 'react-router-dom';
 import styles from '../../css/Nav.module.css';
 
@@ -14,9 +13,6 @@ const Nav = ({ searchBreed }) => {
       Crear Raza
     </Link>
     </div>
-    </div>
-    <div>
-    <Search searchBreed={searchBreed}/>
     </div>
     </div>
     </div>

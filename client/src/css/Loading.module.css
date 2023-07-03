@@ -1,18 +1,23 @@
-.loading{
-    background-color: #2eeef8;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 100%;
+.loading {
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+    background-color: #14eee36e;
+    flex-direction  : column;
+    align-items     : center;
+    justify-content : center;
+    height          : 100vh;
+    width           : 100%;
+    flex-wrap       : wrap;
 }
 
-    .loadingDog img{
-        max-height: max-content;
-        width: 30rem;
-    }
+.loadingDog img {
+    max-height   : max-content;
+    width        : 25rem;
+    border-radius: 60px;
+}
 
 
-    .loadingtext{
-        font-size: 3rem;
-    }
+.loadingtext {
+    font-size: 3rem;
+}

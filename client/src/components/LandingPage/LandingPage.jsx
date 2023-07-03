@@ -5,16 +5,15 @@ import {Link} from 'react-router-dom'
 
 const LandingPage = () => {
     return (
-        <div className={styles.batground}>
-         <div className={styles.image}>  
+        <div className={styles.container}>
          <img src={image} alt="" /> 
-         </div>
+         <div className={styles.containerHome}>
          <div className={styles.boton}>
          <Link to={'/home'}>HOME</Link>
          </div>
-         <div className={styles.texto}>
          <h1>BIENVENIDOS AL MUNDO DOGS</h1>
          </div>
+        
         </div>
     );
 };

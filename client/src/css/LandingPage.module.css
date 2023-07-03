@@ -1,44 +1,42 @@
 .container {
-  /* margin-top: 0px;
-  margin-left:-18.5%;
-  margin-right:0px;
-  margin-bottom: -5%; */
-}
-
-.home {
-  position: absolute;
-  top     : 18%;
-  left    : 10%;
-  right   : 10%;
+  display   : flex;
+  flex-wrap : wrap;
+  max-height: 620px;
 
 }
 
-.texto h1 {
-  position: absolute;
-  top     : 3%;
-  left    : 5%;
-  right   : 60%;
+.containerHome {
+  display        : flex;
+  flex-direction : column;
+  justify-content: flex-end;
+  position       : absolute;
+  top            : 30%;
+  align-items    : center;
+  flex-wrap      : wrap;
 }
 
-.boton {
-  width   : max-content;
-  position: absolute;
-  top     : 40%;
-  left    : 7%;
+.boton a:hover {
+  background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.8));
 }
 
 .boton a {
-  font-size       : 1.5rem;
-  padding         : .5rem 10rem;
+  font-size      : 1.5rem;
+  padding        : .5rem 10rem;
   text-decoration: none;
-  color           : #2ef1f8;
-  background-color: rgb(14, 13, 13);
-  border-radius   : .3rem;
+  color          : #191c1c;
+  background     : linear-gradient(to right, transparent, rgba(0, 0, 0, 0.5));
+  border-radius  : .3rem;
+  border         : solid 2px black;
+  font-weight    : 700;
+  position       : sticky;
 }
 
+
+
 .image img {
-  width       : 1350px;
-  padding     : 0px;
-  margin-left : 0px;
-  margin-right: 0px;
+  width        : 100%;
+  padding      : 0px;
+  margin-left  : 0px;
+  margin-right : 0px;
+  /* max-height: 620px; */
 }

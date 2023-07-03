@@ -17,6 +17,7 @@ const Search = ({ searchBreed }) => {
   };
 
   return (
+    <div className={styles.containerHeader}>
     <div className={styles.serach}>
     <input
         type='text'
@@ -30,6 +31,7 @@ const Search = ({ searchBreed }) => {
     >
         Search
     </button>
+    </div>
     </div>
   );
 };
