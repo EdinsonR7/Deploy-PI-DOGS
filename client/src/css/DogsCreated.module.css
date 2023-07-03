@@ -1,14 +1,11 @@
-.bodyDogsCreated{
-    margin-bottom: 1rem;
-    margin-bottom: 1.9rem;
-    position: absolute;
-    top: 80px;
-    left: 90%;
-    color: #0e1110;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}    
-    
-    .textorder{
-        color: #080808;
-        margin-bottom: 1rem;
-    }
+.bodyDogsCreated {
+    display       : flex;
+    flex-direction: column;
+    color         : #0e1110;
+    font-family   : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.textorder {
+    color     : #080808;
+    margin-top: auto;
+}
