@@ -19,7 +19,6 @@ import styles from "../../css/Home.module.css";
 import AlfabeOrder from "../AlfabeOrder/AlfabeOrder";
 import Temperamento from "../Temperamento/Temperamento";
 import Loading from "../Loading/Loading";
-// import { Link } from 'react-router-dom';
 import Peso from "../Peso/Peso";
 import DogsCreated from "../DogsCreated/DogsCreated";
 

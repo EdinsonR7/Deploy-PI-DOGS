@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import styles from '../../css/Nav.module.css';
 
 const Nav = ({ searchBreed }) => {
@@ -8,10 +8,10 @@ const Nav = ({ searchBreed }) => {
     <div className={styles.nav}>
     <div className={styles.bodybtn}>
     <div className={styles.createdog}>
-    <Link className={`${styles.button} ${styles['button-white']}`}
+    {/* <Link className={`${styles.button} ${styles['button-white']}`}
       to={'/home/createDog'}>
       Crear Raza
-    </Link>
+    </Link> */}
     </div>
     </div>
     </div>
