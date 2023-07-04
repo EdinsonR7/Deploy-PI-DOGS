@@ -8,11 +8,25 @@
 .containerHome {
   display        : flex;
   flex-direction : column;
-  justify-content: flex-end;
-  position       : absolute;
-  top            : 30%;
+  align-items: center;
   align-items    : center;
   flex-wrap      : wrap;
+  background-color: #759457;
+  width: 100%;
+  max-width: 500px;
+}
+
+
+@media (max-width: 768px) {
+ .containerHome {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+ .containerHome {
+    font-size: 14px;
+  }
 }
 
 .boton a:hover {
