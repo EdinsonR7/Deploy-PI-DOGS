@@ -1,9 +1,9 @@
 .containerHeader {
     display         : flex;
-    height          : 100px;
     justify-content : center;
     background-color: rgb(76 40 5 / 60%);
     flex-wrap       : wrap;
+    height: 75px;
 }
 
 

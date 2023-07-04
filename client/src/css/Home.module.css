@@ -3,7 +3,6 @@
     justify-content : space-evenly;
     flex-wrap       : wrap;
     background-color: rgb(76 40 5 / 60%);
-    height          : 60px;
     border-top      : 2px solid #14eee36e;
 }
 
@@ -78,7 +77,8 @@
 
 .button {
     background-color: #14eee36e;
-    margin-top      : 11px;
+    margin-top      : 6px;
+    margin-bottom: 12px;
     font-weight     : 700;
     color           : black;
 

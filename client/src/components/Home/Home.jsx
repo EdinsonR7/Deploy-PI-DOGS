@@ -75,7 +75,7 @@ const Home = () => {
             <Peso filterBy={filterBy} />
             <Link
               className={`${styles.button} ${styles["button-white"]}`}
-              to={"/home/:id"}
+              to={"/home/createDog"}
             >
               Crear Raza
             </Link>
