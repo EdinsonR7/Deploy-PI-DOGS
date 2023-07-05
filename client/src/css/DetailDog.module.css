@@ -7,14 +7,14 @@
     background-size      : cover;
     background-attachment: fixed;
     min-height           : 100vh;
+    background-color: #14eee36e;
 }
 
 .detailcard {
     display       : flex;
     flex-direction: column;
-    margin-left   : 5%;
-    margin-bottom : 5%;
-    gap           : 2rem;
+    align-items: center;
+    width: 100%;
 }
 
 .cardbody {
