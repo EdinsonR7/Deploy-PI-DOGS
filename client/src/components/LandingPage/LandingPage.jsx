@@ -7,14 +7,11 @@ const LandingPage = () => {
     return (
         <div className={styles.container}>
          <img src={image} alt="" /> 
-         <div className={styles.containerHome}>
-         <div className={styles.boton}>
-         <Link to={'/home'}>HOME</Link>
+          <div className={styles.containerHome}>
+          <Link to={'/home'}>HOME</Link>
+          <h1>BIENVENIDOS AL MUNDO DOGS</h1>
          </div>
-         <h1>BIENVENIDOS AL MUNDO DOGS</h1>
          </div>
-        
-        </div>
     );
 };
 

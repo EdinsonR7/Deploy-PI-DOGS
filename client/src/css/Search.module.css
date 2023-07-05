@@ -4,6 +4,7 @@
     background-color: rgb(76 40 5 / 60%);
     flex-wrap       : wrap;
     height: 75px;
+    width: 100%;
 }
 
 
@@ -20,11 +21,11 @@
     border          : .1rem solid rgba(0, 0, 0, 0.226);
     color           : rgb(17, 15, 15);
     height          : 2.1rem;
-    width           : 22rem;
     text-decoration : none;
     padding-left    : .7rem;
     font-family     : 'Montserrat';
     font-weight     : bold;
+    width: 300px;
 }
 
 .serach input::placeholder {
