@@ -36,31 +36,25 @@
 
 
 .texts {
-    display        : block;
-    flex-direction : column;
-    justify-content: center;
-    align-items    : center;
-    position       : relative;
-    gap            : .3rem;
-    height         : 12rem;
+    gap: .3rem
 }
 
 .name {
-    width          : 12rem;
-    height         : max-content;
-    word-wrap      : break-word;
-    cursor: pointer;
+    width    : 12rem;
+    height   : max-content;
+    word-wrap: break-word;
+    cursor   : pointer;
 
 
 
 }
 
 .name h1 {
-    word-wrap      : break-word;
-    color          : #f2f9f9;
-    letter-spacing : 2px;
-    text-transform : uppercase;
-    
+    word-wrap     : break-word;
+    color         : #f2f9f9;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
 
 }
 
