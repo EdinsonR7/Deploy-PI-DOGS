@@ -46,7 +46,7 @@ label {
 .columnaform {
     display       : flex;
     flex-direction: column;
-    width         : 15rem;
+    width         : 12rem;
     gap           : .5rem
 }
 
