@@ -5,7 +5,7 @@
     align-items    : center;
     gap            : 1rem;
     flex-wrap      : wrap;
-    width: 300px;
+    width: 320px;
 
 
 
@@ -41,7 +41,7 @@
     align-items    : center;
     position       : relative;
     gap            : .3rem;
-    height         : 12rem;
+
 }
 
 .name {
