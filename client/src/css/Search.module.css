@@ -3,17 +3,11 @@
     justify-content : center;
     background-color: rgb(76 40 5 / 60%);
     flex-wrap       : wrap;
+    align-items: center;
     height: 75px;
     width: 100%;
 }
 
-
-.serach {
-    display        : flex;
-    justify-content: center;
-    align-items    : center;
-    gap            : 1rem;
-}
 
 .serach input {
     outline         : none;

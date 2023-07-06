@@ -1,9 +1,8 @@
-.containerFiltros {
-    display         : flex;
-    justify-content : space-evenly;
-    flex-wrap       : wrap;
-    background-color: rgb(76 40 5 / 60%);
-    border-top      : 2px solid #14eee36e;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 
@@ -17,41 +16,21 @@
     min-height           : 100vh;
 }
 
-
-
-.logohome {
-    margin-left : 3rem;
-    margin-right: 8rem;
-    width       : 8rem;
+.containerFiltros {
+    display         : flex;
+    justify-content : space-evenly;
+    flex-wrap       : wrap;
+    background-color:  rgb(76 40 5 / 60%);
+    border-top: 2px solid  #14eee36e;
 }
 
 
-.textohome h1 {
-    font-family: 'Montserrat';
-    font-size  : 1.5rem;
-    position   : relative;
-    right      : 20px;
-    position   : relative;
-    top        : -8px;
-    color      : rgb(231, 241, 241)
-}
-
-
-
-.logo img {
-    color        : gray;
-    position     : absolute;
-    border-radius: .5rem;
-    top          : 27px;
-    left         : 10%;
-    width        : 10%;
-    height       : 20%;
-}
+/* modificado deploy */
 
 
 .body {
-    width           : 100%;
-    display         : flex;
+    width  : 100%;
+    display: flex;
     background-color: black;
 }
 
@@ -59,6 +38,7 @@
     width: 100%;
 }
 
+/*BOTON DE CREAR RAZA */
 
 
 .button:link,
@@ -77,7 +57,7 @@
 
 .button {
     background-color: #14eee36e;
-    margin-top      : 6px;
+    margin-top      : 7px;
     margin-bottom: 12px;
     font-weight     : 700;
     color           : black;
