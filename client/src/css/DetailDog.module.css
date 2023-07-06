@@ -8,6 +8,7 @@
     background-attachment: fixed;
     min-height           : 100vh;
     background-color     : #14eee36e;
+    flex-wrap: wrap;
 }
 
 .detailcard {
@@ -15,13 +16,20 @@
     flex-direction: column;
     align-items   : center;
     width         : 100%;
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .cardbody {
-    justify-content : center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     background-color: rgba(0, 0, 0, 0.3);
-    padding         : 1rem;
     border-radius   : .5rem;
+    width: 100%;
 }
 
 .bodytext {
@@ -35,12 +43,15 @@
 
 
 .detailimg {
-    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
 }
 
 .detailimg img {
-    width        : 30rem;
-    height       : max-content;
+    width: 90%;
+    margin-top: 10px;
     border-radius: .5rem;
 }
 
