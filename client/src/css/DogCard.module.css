@@ -13,7 +13,7 @@
 }
 
 .image {
-    border-radius: 2%;
+    border-radius: 8%;
     word-wrap    : wrap;
     height       : 230px;
     overflow     : hidden;
