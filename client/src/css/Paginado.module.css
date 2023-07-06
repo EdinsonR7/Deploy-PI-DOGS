@@ -1,4 +1,8 @@
 .pagebody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     background-color: #14eee36e;
     text-align: center;
     padding         : .5rem;

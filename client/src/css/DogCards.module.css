@@ -4,6 +4,7 @@
     justify-content: center;
     align-items    : center;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 
@@ -16,6 +17,7 @@
     text-align     : center;
     margin         : 2rem 0;
     padding        : inherit;
+    width:100%;
 }
 
 .cards h1 {
@@ -24,6 +26,6 @@
 
 
 .cards li {
-    width     : max-content;
+    width     : 250px;
     list-style: none;
 }

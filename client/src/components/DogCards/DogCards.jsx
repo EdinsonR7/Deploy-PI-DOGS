@@ -16,14 +16,14 @@ const DogCards = () => {
     );
 
     const ifFilter = useSelector(state => state.ifFilter);
-    const [page, setPage] = useState({ prev: 0, next: 8 });
+    const [page, setPage] = useState({ prev: 0, next: 10 });
     const [click, setClick] = useState(1);
   
     const paginaAnterior = () => {
       if (page.prev === 0) return;
-      let next = page.next - 8;
-      setPage({ prev: page.prev - 8, next: page.next - 8 });
-      setClick(next / 8);
+      let next = page.next - 10;
+      setPage({ prev: page.prev - 10, next: page.next - 10 });
+      setClick(next / 10);
     };
   
     const paginaSiguiente = () => {
@@ -35,28 +35,28 @@ const DogCards = () => {
           return;
       }
       if (page.next === allDogs.length || page.next > allDogs.length) return;
-      let next = page.next + 8;
-      setPage({ prev: page.prev + 8, next: page.next + 8 });
-      setClick(next / 8);
+      let next = page.next + 10;
+      setPage({ prev: page.prev + 10, next: page.next + 10 });
+      setClick(next / 10);
     };
       
   
     const seleccionarPagina = e => {
-      let pageNext = e.target.value * 8;
-      let pagePrev = pageNext - 8;
+      let pageNext = e.target.value * 10;
+      let pagePrev = pageNext - 10;
       setPage({ prev: pagePrev, next: pageNext });
-      setClick(pageNext / 8);
+      setClick(pageNext / 10);
     };
   
     let dogsPagina;
   
     let paginaNum = [];
     const formatoNumPag = typeFilter => {
-      for (let i = 1; i <= Math.ceil(typeFilter.length / 8); i++) {
+      for (let i = 1; i <= Math.ceil(typeFilter.length / 10); i++) {
         paginaNum.push(i);
       }
-      if (page.next / paginaNum.length > 8 && typeFilter[0]) {
-        setPage({ prev: 0, next: 8 });
+      if (page.next / paginaNum.length > 10 && typeFilter[0]) {
+        setPage({ prev: 0, next: 10 });
         setClick(1);
       }
     };
