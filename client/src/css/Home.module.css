@@ -1,8 +1,9 @@
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.containerFiltros {
+    display         : flex;
+    justify-content : space-evenly;
+    flex-wrap       : wrap;
+    background-color:  rgb(76 40 5 / 60%);
+    border-top: 2px solid  #14eee36e;
 }
 
 
@@ -16,16 +17,11 @@
     min-height           : 100vh;
 }
 
-.containerFiltros {
-    display         : flex;
-    justify-content : space-evenly;
-    flex-wrap       : wrap;
-    background-color:  rgb(76 40 5 / 60%);
-    border-top: 2px solid  #14eee36e;
-}
 
 
 /* modificado deploy */
+
+
 
 
 .body {
