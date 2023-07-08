@@ -16,7 +16,7 @@
 
 .container a{
   background     : linear-gradient(90deg,#eee5e5,rgba(0,0,0,.5));
-  border-radius  : .2rem;
+  border-radius  : .4rem;
   border         : solid 1px black;
   font-weight    : 700;
   font-size: 25px;
@@ -44,6 +44,7 @@
   margin: 0;
   color: #070707;
   background: linear-gradient(90deg,#eee5e5,rgba(0,0,0,.5));
+  border-radius  : .4rem;
 }
 
 
