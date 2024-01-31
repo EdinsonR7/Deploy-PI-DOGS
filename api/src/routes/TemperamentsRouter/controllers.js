@@ -1,25 +1,24 @@
-const {YOUR_API_KEY} = process.env
-const axios = require('axios');
-const { Temperament } = require('../../db.js');
+const { YOUR_API_KEY } = process.env;
+const axios = require("axios");
+const { Temperament } = require("../../db.js").default;
 
-module.exports ={
+module.exports = {
+  getTemperaments: async () => {
+    let dogsApi = await axios.get(
+      `https://api.thedogapi.com/v1/breeds?api_key=${YOUR_API_KEY}`
+    );
+    let temperaments = dogsApi.data.map((t) => t.temperament);
 
-    getTemperaments: async () =>{
-        let dogsApi = await axios.get(`https://api.thedogapi.com/v1/breeds?api_key=${YOUR_API_KEY}`)
-        let temperaments = dogsApi.data.map(t => t.temperament)
+    const temperamensNoRepetir = [
+      ...new Set(temperaments.join(", ").replace(/ /g, "").split(",")),
+    ].filter((t) => t !== "");
 
-        const temperamensNoRepetir = [
-            ...new Set(temperaments.join(', ').replace(/ /g, '').split(',')),
-             ].filter(t => t !== '');
-
-             
     for (let i = 0; i < temperamensNoRepetir.length; i++) {
-        await Temperament.findOrCreate({
-          where: { name: temperamensNoRepetir[i] },
-        });
-      }
-  
-      return Temperament.findAll();
-    },
-    
-}
+      await Temperament.findOrCreate({
+        where: { name: temperamensNoRepetir[i] },
+      });
+    }
+
+    return Temperament.findAll();
+  },
+};

@@ -1,6 +1,6 @@
 const axios = require("axios");
 const { YOUR_API_KEY } = process.env;
-const { Dog, Temperament } = require("../../db.js");
+const { Dog, Temperament } = require("../../db.js").default;
 
 module.exports = {
   getDogs: async (name) => {
