@@ -1,11 +1,11 @@
 const axios = require("axios");
-const { YOUR_API_KEY } = process.env;
+const { API_KEY } = process.env;
 const { Dog, Temperament } = require("../../db.js").default;
 
 module.exports = {
   getDogs: async (name) => {
     dogsApi = await axios.get(
-      `https://api.thedogapi.com/v1/breeds?api_key=${YOUR_API_KEY}`
+      `https://api.thedogapi.com/v1/breeds?api_key=${API_KEY}`
     );
     dogsApi = dogsApi.data.map((d) => {
       let dog = {
