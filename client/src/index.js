@@ -11,9 +11,9 @@ import { BrowserRouter } from "react-router-dom";
 
 // dotenv.config();
 
-axios.defaults.baseURL = "http://localhost:3001";
+// axios.defaults.baseURL = "http://localhost:3001";
 
-// axios.defaults.baseURL = "https://deploy-pi-dogs-production.up.railway.app/";
+axios.defaults.baseURL = "https://api-1nxz4xxzo-edinsonr7.vercel.app";
 
 ReactDOM.render(
   <React.StrictMode>
