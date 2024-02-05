@@ -7,8 +7,13 @@ import reportWebVitals from "./reportWebVitals";
 import store from "./redux/store";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
+// import dotenv from "dotenv";
 
-axios.defaults.baseURL = "https://deploy-pi-dogs-production.up.railway.app/";
+// dotenv.config();
+
+axios.defaults.baseURL = "http://localhost:3001";
+
+// axios.defaults.baseURL = "https://deploy-pi-dogs-production.up.railway.app/";
 
 ReactDOM.render(
   <React.StrictMode>
