@@ -1,14 +1,8 @@
-const pg = require("pg");
 require("dotenv").config();
 const { Sequelize } = require("sequelize");
 const fs = require("fs");
 const path = require("path");
 const { DB_USER, DB_PASSWORD, DB_HOST, DB_PORT, DB_NAME } = process.env;
-
-const pool = new pg.Pool({
-  connectionString:
-    "postgres://dogs_09wt_user:uXr0YqvWOFDMZajWEfSbJC8scup7DfE0@dpg-cms7ehf109ks73dsiv2g-a.oregon-postgres.render.com/dogs_09wt",
-});
 
 const sequelize = new Sequelize(
   `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}:${DB_PORT}/${DB_NAME}`,
