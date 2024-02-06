@@ -7,11 +7,9 @@ import reportWebVitals from "./reportWebVitals";
 import store from "./redux/store";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
-// import dotenv from "dotenv";
-// dotenv.config();
-axios.defaults.baseURL = "http://localhost:3001";
 
-// axios.defaults.baseURL = "https://api-1nxz4xxzo-edinsonr7.vercel.app";
+axios.defaults.baseURL = "https://deploy-api-4xcy.onrender.com/";
+// axios.defaults.baseURL = "http://localhost:3001";
 
 ReactDOM.render(
   <React.StrictMode>
