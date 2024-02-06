@@ -8,12 +8,10 @@ import store from "./redux/store";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 // import dotenv from "dotenv";
-
 // dotenv.config();
+axios.defaults.baseURL = "http://localhost:3001";
 
-// axios.defaults.baseURL = "http://localhost:3001";
-
-axios.defaults.baseURL = "https://api-1nxz4xxzo-edinsonr7.vercel.app";
+// axios.defaults.baseURL = "https://api-1nxz4xxzo-edinsonr7.vercel.app";
 
 ReactDOM.render(
   <React.StrictMode>
