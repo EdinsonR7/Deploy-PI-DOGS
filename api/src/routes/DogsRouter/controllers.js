@@ -6,7 +6,7 @@ const { API_KEY } = process.env;
 module.exports = {
   getDogs: async (name) => {
     dogsApi = await axios.get(
-      `https://api.thedogapi.com/v1/breeds?api_key=live_ESty7RNXMc6hELCB8lyIIjKevRlEqlxO6o2dpn7sGZQ1ao2ydN4gMhEYz55Yz3yq`
+      `https://api.thedogapi.com/v1/breeds?api_key=${API_KEY}`
     );
     dogsApi = dogsApi.data.map((d) => {
       let dog = {
