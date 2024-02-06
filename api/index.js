@@ -18,7 +18,7 @@
 //                       `=---='
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-const server = require("./src/app.js");
+const server = require("./src/app.js").default;
 const { conn } = require("./src/db.js");
 require("dotenv").config();
 
