@@ -8,8 +8,8 @@ import store from "./redux/store";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 
-axios.defaults.baseURL = "https://deploy-pi-dogs-r1z2.vercel.app/";
-// axios.defaults.baseURL = "https://deploy-api-4xcy.onrender.com/";
+axios.defaults.baseURL = "https://deploy-api-4xcy.onrender.com/";
+// axios.defaults.baseURL = "https://deploy-pi-dogs-r1z2.vercel.app/";
 // axios.defaults.baseURL = "http://localhost:3001";
 
 ReactDOM.render(
