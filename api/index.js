@@ -24,6 +24,6 @@ require("dotenv").config();
 
 conn.sync({ force: false }).then(() => {
   server.listen(process.env.PORT, () => {
-    console.log("%s listening at", process.env.PORT || 4000);
+    console.log("%s listening at", process.env.PORT || 10000);
   });
 });
