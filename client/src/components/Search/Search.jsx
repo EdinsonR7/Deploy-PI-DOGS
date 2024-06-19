@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import styles from '../../css/Search.module.css';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Search = ({ searchBreed }) => {
   const [search, setSearch] = useState('');
@@ -18,6 +19,9 @@ const Search = ({ searchBreed }) => {
 
   return (
     <div className={styles.containerHeader}>
+      <Link to={"/home"} className={styles.logoHome}>
+      <img src='client/src/image/doglanding.png' alt='Imagen Perro' />
+      </Link>
     <div className={styles.serach}>
     <input
         type='text'
