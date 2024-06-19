@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import styles from '../../css/Search.module.css';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import image from '../../image/doglanding.png';
 
 const Search = ({ searchBreed }) => {
   const [search, setSearch] = useState('');
@@ -20,7 +21,7 @@ const Search = ({ searchBreed }) => {
   return (
     <div className={styles.containerHeader}>
       <Link to={"/home"} className={styles.logoHome}>
-      <img src='/src/image/doglanding.png' alt='Imagen Perro' />
+      <img src={image} alt='' />
       </Link>
     <div className={styles.serach}>
     <input
