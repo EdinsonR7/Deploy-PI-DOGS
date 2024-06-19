@@ -1,13 +1,20 @@
 .containerHeader {
     display         : flex;
-    justify-content : center;
     background-color: rgb(76 40 5 / 60%);
     flex-wrap       : wrap;
     height          : 75px;
     width           : 100%;
     flex-wrap       : wrap;
+    justify-content : space-evenly;
 }
 
+.logoHome {
+    margin-top   : 4px;
+    border-radius: 50px;
+    object-fit   : cover;
+    width        : 68px;
+    height       : 68px;
+}
 
 
 .serach {
