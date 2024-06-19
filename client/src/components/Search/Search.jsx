@@ -19,8 +19,8 @@ const Search = ({ searchBreed }) => {
 
   return (
     <div className={styles.containerHeader}>
-      <Link to={"/home"} className={styles.logoHome}>
-      <img src='client/src/image/doglanding.png' alt='Imagen Perro' />
+      <Link to={"/"} className={styles.logoHome}>
+      <img src='/src/image/doglanding.png' alt='Imagen Perro' />
       </Link>
     <div className={styles.serach}>
     <input
