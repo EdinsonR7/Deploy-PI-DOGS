@@ -21,7 +21,6 @@ const DetailDog = () => {
         <div className={styles.cardbody}>
           <div className={styles.detailimg}>
             <img src={detailBreed.image} alt="img" />
-          </div>
           <div className={styles.bodytext}>
             <div>
               <h1>{detailBreed.breed}</h1>
@@ -36,6 +35,7 @@ const DetailDog = () => {
                 <p>{detailBreed.temperament || "No tempers"}</p>
               </div>
             </div>
+          </div>
           </div>
         </div>
         <div className={styles.buttonbody}>
