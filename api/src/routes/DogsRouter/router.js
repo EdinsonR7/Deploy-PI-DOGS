@@ -9,7 +9,6 @@ const {
 
 router.get("/", async (req, res) => {
   const { name } = req.query;
-  console.log({ name }, "esto es una prueba");
   try {
     const dogs = await getDogs(name);
     res.status(200).json(dogs);

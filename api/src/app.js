@@ -15,25 +15,21 @@ server.use(bodyParser.json({ limit: "50mb" }));
 server.use(cookieParser());
 server.use(morgan("dev"));
 
-//'http://localhost:3000'
-
-// server.use((req, res, next) => {
-//   res.header(
-//     "Access-Control-Allow-Origin",
-//     // "https://deploy-pi-dogs-eta.vercel.app"
-//     "http://localhost:3000"
-//   );
-//   res.header("Access-Control-Allow-Credentials", "true");
-//   res.header("Access-Control-Allow-Credentials", "true");
-//   res.header(
-//     "Access-Control-Allow-Headers",
-//     "Origin, X-Requested-With, Content-Type, Accept"
-//   );
-//   res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
-//   next();
-// });
-
-server.use(cors());
+server.use((req, res, next) => {
+  res.header(
+    "Access-Control-Allow-Origin",
+    "https://deploy-pi-dogs-eta.vercel.app"
+    // "http://localhost:3000"
+  );
+  res.header("Access-Control-Allow-Credentials", "true");
+  res.header("Access-Control-Allow-Credentials", "true");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
+  next();
+});
 
 server.use("/", routes);
 
