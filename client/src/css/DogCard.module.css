@@ -6,10 +6,12 @@
     gap            : 1rem;
     flex-wrap      : wrap;
     width: 320px;
+}
 
-
-
-
+@media screen and (max-width:728px) {
+    .card{
+        width: 0px;
+    }
 }
 
 .image {
