@@ -18,8 +18,8 @@ server.use(morgan("dev"));
 server.use((req, res, next) => {
   res.header(
     "Access-Control-Allow-Origin",
-    "https://deploy-pi-dogs-eta.vercel.app"
-    // "http://localhost:3000"
+    // "https://deploy-pi-dogs-eta.vercel.app"
+    "http://localhost:3000"
   );
   res.header("Access-Control-Allow-Credentials", "true");
   res.header("Access-Control-Allow-Credentials", "true");

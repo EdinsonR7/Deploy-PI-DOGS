@@ -8,8 +8,8 @@ import store from "./redux/store";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 
-// axios.defaults.baseURL = "http://localhost:3001";
-axios.defaults.baseURL = "https://deploy-pi-dogs.onrender.com";
+axios.defaults.baseURL = "http://localhost:3001";
+// axios.defaults.baseURL = "https://deploy-pi-dogs.onrender.com";
 
 ReactDOM.render(
   <React.StrictMode>
