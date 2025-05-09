@@ -25,7 +25,8 @@
     justify-content: center;
     margin         : auto;
     flex-wrap      : wrap;
-
+    height: 100vh;
+    background-color: #498649;
 }
 
 .form h1 {
