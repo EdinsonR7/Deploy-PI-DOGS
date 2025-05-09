@@ -20,7 +20,7 @@ const Search = ({ searchBreed }) => {
 
   return (
     <div className={styles.containerHeader}>
-      <Link to={"/home"} className={styles.logoHome}>
+      <Link to={"/"} className={styles.logoHome}>
       <img src={image} alt='' />
       </Link>
     <div className={styles.serach}>
