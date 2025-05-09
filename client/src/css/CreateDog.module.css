@@ -24,8 +24,6 @@
     justify-content: center;
     margin         : auto;
     flex-direction : column;
-    gap           : 1rem;
-    padding        : 1rem;
     height: 100vh;
     background-color: #498649;
 }
