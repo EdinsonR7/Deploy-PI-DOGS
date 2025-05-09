@@ -80,6 +80,9 @@ const Home = () => {
               Crear Raza
             </Link>
             <DogsCreated filterBy={filterBy} />
+            <Link to={"/home"} className={styles.buttonBack}>
+          {"<"}
+          </Link>
           </div>
           <div className={styles.home}>
             <div className={styles.body}>
