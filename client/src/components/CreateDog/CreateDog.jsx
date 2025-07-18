@@ -135,6 +135,9 @@ const CreateDog = () => {
   return (
     <div className={styles.container}>
       <h1>Crear Nueva Raza</h1>
+      <Link to={"/home"} className={styles.buttonBack}>
+          {"<"}
+          </Link>
       <div className={styles.form}>
         <form
           onSubmit={(e) => handleSubmit(e)}
@@ -251,9 +254,6 @@ const CreateDog = () => {
               <label className={styles.submit}></label>
             )}
           </div>
-          <Link to={"/home"} className={styles.buttonBack}>
-          {"<"}
-          </Link>
         </form>
       </div>
     </div>
