@@ -6,7 +6,6 @@
     border-top: 2px solid  #14eee36e;
 }
 
-
 .home {
     display              : block;
     flex-direction       : column;
@@ -17,12 +16,7 @@
     min-height           : 100vh;
 }
 
-
-
 /* modificado deploy */
-
-
-
 
 .body {
     width  : 100%;
@@ -35,7 +29,6 @@
 }
 
 /*BOTON DE CREAR RAZA */
-
 
 .button:link,
 .button:link:visited {
