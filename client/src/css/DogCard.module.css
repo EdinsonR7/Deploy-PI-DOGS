@@ -47,7 +47,7 @@
 }
 
 .name {
-    width          : 12rem;
+    width          : 1rem;
     height         : max-content;
     word-wrap      : break-word;
     cursor: pointer;
